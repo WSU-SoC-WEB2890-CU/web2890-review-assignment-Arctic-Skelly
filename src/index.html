@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Project Starter</title>
+  <title>Portfolio: Allison Drysdale</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index,follow">
   <meta name="description" content="TODO: A starter project for ...">
@@ -18,7 +18,7 @@
   <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
     <div class="container">
       <a class="navbar-brand" href="#">
-        <img src="images/logo.png" alt="logo image">
+        <img src="images/logo-pink.png" alt="logo image">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,11 +27,11 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Testimonials</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Faq</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Contact</a>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+          <li class="nav-item"><a class="nav-link" href="#faq">Faq</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
         <button type="button" class="rounded-pill btn-rounded">
@@ -52,7 +52,7 @@
           <h1 class="display-2">
             <span class="display-2--intro">Welcome!</span>
             <span class="display-2--description lh-base">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae consectetur libero quod quasi et ex.
+              This is the portfolio of aspiring web developer Allison Drysdale! Take a look at some of my work and see if it's right for you.
             </span>
           </h1>
           <button type="button" class="rounded-pill btn-rounded">Get in Touch
@@ -80,6 +80,25 @@
     </svg>
   </section>
 
+  <!-- THE ABOUT ME SECTION -->
+  <section id="about-me" class="about-me">
+    <div class="container pb-5">
+      <div class="row text-center">
+        <h1 class="display-3 fw-bold">About the Dev</h1>
+        <div class="heading-line mb-5"></div>
+      </div>
+
+      <div class="row pt-2 pb-2 mt-0 mb-3">
+        <div class="col">
+          <img src="images/about-me.jpg" alt="Allison Drysdale photo" class="img-fluid border">
+        </div>
+        <div class="col">
+          <p class="lh-lg">Allison Drysdale is a 21-year-old woman from Vail, Arizona who moved to Utah as a child and stayed there ever since. She's an aspiring web developer currently attending Weber State in pursuit of a degree.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- THE SERVICES SECTION -->
   <section id="services" class="services">
     <div class="container">
@@ -91,28 +110,28 @@
         <div class="col-md-6 border-right">
           <div class="bg-white p-3">
             <h2 class="fw-bold text-capitalize text-center">
-              Soluta exercitationem voluptatem labore cum necessitatibus temporibus nisi.
+              With just three simple steps, we can create a great website together!
             </h2>
           </div>
         </div>
         <div class="col-md-6">
           <div class="bg-white p-4 text-start">
             <p class="fw-light">
-              Hello
+              It's easy as 3.14159265!
             </p>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="container">
+    <div class="container services-lg-up">
       <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
           <div class="services__content">
-            <div class="icon d-block bi bi-send-fill"></div>
-            <h3 class="display-3--title mt-1">Marketing</h3>
+            <div class="icon d-block bi bi-envelope"></div>
+            <h3 class="display-3--title mt-1">Step 1: Contact</h3>
             <p class="lh-lg">
-              Welcome to my website. This is new.
+              Clear communication is a top priority, and planning is the first step to any great project. We can discuss everything you have in mind for your site, from smooth functionality to stunning looks!
             </p>
             <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
               <span><i class="bi bi-arrow-right"></i></span>
@@ -121,24 +140,22 @@
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
           <div class="services__pic">
-            <img src="images/services/service-1.png" alt="marketing illustration" class="img-fluid">
+            <img src="images/services/service-1.png" alt="sending emails illustration" class="img-fluid">
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-start">
           <div class="services__pic">
-            <img src="images/services/service-2.png" alt="web development illustration" class="img-fluid">
+            <img src="images/services/service-2.png" alt="css web development illustration" class="img-fluid">
           </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
           <div class="services__content">
             <div class="icon d-block bi bi-code-slash"></div>
-            <h3 class="display-3--title mt-1">web development</h3>
+            <h3 class="display-3--title mt-1">Step 2: Make</h3>
             <p class="lh-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, impedit rem,
-              doloremque autem quibusdam blanditiis harum alias hic accusantium
-              maxime atque ratione magni repellat?
+              With my budding skills in web design, and with a well thought out plan, I can create a website to your specifications! This includes crafting an accessible design, so that everyone can see what you have to offer!
             </p>
             <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
               <span><i class="bi bi-arrow-right"></i></span>
@@ -149,12 +166,10 @@
       <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
           <div class="services__content">
-            <div class="icon d-block bi bi-cloud-arrow-up"></div>
-            <h3 class="display-3--title mt-1">cloud hosting</h3>
+            <div class="icon d-block bi bi-gear"></div>
+            <h3 class="display-3--title mt-1">Step 3: Updates</h3>
             <p class="lh-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, impedit rem,
-              doloremque autem quibusdam blanditiis harum alias hic accusantium
-              maxime atque ratione magni repellat?
+              Frequent updates showing my progress will allow for changes to be made when needs be, stiking a balance between what you see in your mind's eye and what I can accomplish.
             </p>
             <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
               <span><i class="bi bi-arrow-right"></i></span>
@@ -163,56 +178,152 @@
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
           <div class="services__pic">
-            <img src="images/services/service-3.png" alt="cloud hosting illustration" class="img-fluid">
+            <img src="images/services/service-3.png" alt="progress bar illustration" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container services-md-down">
+      <div class="col">
+        <div class="row">
+          <div class="services__pic">
+            <img src="images/services/service-1.png" alt="sending emails illustration" class="img-fluid">
+          </div>
+        </div>
+        <div class="row border-bottom mb-5">
+          <div class="services__content">
+            <div class="icon d-block bi bi-envelope"></div>
+            <h3 class="display-3--title mt-1">Step 1: Contact</h3>
+            <p class="lh-lg">
+              Clear communication is a top priority, and planning is the first step to any great project. We can discuss everything you have in mind for your site, from smooth functionality to stunning looks!
+            </p>
+            <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
+              <span><i class="bi bi-arrow-right"></i></span>
+            </button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="services__pic">
+            <img src="images/services/service-2.png" alt="css web development illustration" class="img-fluid">
+          </div>
+        </div>
+        <div class="row border-bottom mb-5">
+          <div class="services__content">
+            <div class="icon d-block bi bi-code-slash"></div>
+            <h3 class="display-3--title mt-1">Step 2: Make</h3>
+            <p class="lh-lg">
+              With my budding skills in web design, and with a well thought out plan, I can create a website to your specifications! This includes crafting an accessible design, so that everyone can see what you have to offer!
+            </p>
+            <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
+              <span><i class="bi bi-arrow-right"></i></span>
+            </button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="services__pic">
+            <img src="images/services/service-3.png" alt="progress bar illustration" class="img-fluid">
+          </div>
+        </div>
+        <div class="row border-bottom mb-5">
+          <div class="services__content">
+            <div class="icon d-block bi bi-gear"></div>
+            <h3 class="display-3--title mt-1">Step 3: Updates</h3>
+            <p class="lh-lg">
+              Frequent updates showing my progress will allow for changes to be made when needs be, stiking a balance between what you see in your mind's eye and what I can accomplish.
+            </p>
+            <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
+              <span><i class="bi bi-arrow-right"></i></span>
+            </button>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- THE CAMPANIES SECTION -->
-  <section id="companies" class="companies">
+  <!-- THE LANGUAGES SECTION -->
+  <section id="languages" class="languages">
     <div class="container">
       <div class="row text-center">
-        <h1 class="display-3 fw-bold">Trusted by</h1>
+        <h1 class="display-3 fw-bold">Experienced in</h1>
         <div class="heading-line mb-5"></div>
       </div>
     </div>
-    <div class="container">
+
+    <div class="container xl-up">
       <div class="row">
-        <div class="col-md-4 col-lg-2">
-          <div class="companies__logo-box shadow-sm">
-            <img src="images/companies/company-1.png" alt="Company 1 logo" title="Company 1 Logo" class="img-fluid">
+        <div class="col">
+          <div class="languages__logo-box">
+            <img src="images/languages/language-1.png" alt="HTML 5 logo" title="HTML 5 Logo" class="img-fluid">
           </div>
         </div>
-        <div class="col-md-4 col-lg-2">
-          <div class="companies__logo-box shadow-sm">
-            <img src="images/companies/company-2.png" alt="Company 2 logo" title="Company 2 Logo" class="img-fluid">
+        <div class="col">
+          <div class="languages__logo-box">
+            <img src="images/languages/language-2.png" alt="CSS 3 logo" title="CSS 3 Logo" class="img-fluid">
           </div>
         </div>
-        <div class="col-md-4 col-lg-2">
-          <div class="companies__logo-box shadow-sm">
-            <img src="images/companies/company-3.png" alt="Company 3 logo" title="Company 3 Logo" class="img-fluid">
+        <div class="col">
+          <div class="languages__logo-box">
+            <img src="images/languages/language-3.png" alt="Sass logo" title="Sass Logo" class="img-fluid">
           </div>
         </div>
-        <div class="col-md-4 col-lg-2">
-          <div class="companies__logo-box shadow-sm">
-            <img src="images/companies/company-4.png" alt="Company 4 logo" title="Company 4 Logo" class="img-fluid">
+        <div class="col">
+          <div class="languages__logo-box">
+            <img src="images/languages/language-4.png" alt="Bootstrap logo" title="Bootstrap Logo" class="img-fluid">
           </div>
         </div>
-        <div class="col-md-4 col-lg-2">
-          <div class="companies__logo-box shadow-sm">
-            <img src="images/companies/company-5.png" alt="Company 5 logo" title="Company 5 Logo" class="img-fluid">
+      </div>
+    </div>
+
+    <div class="container lg-down">
+      <div class="row">
+        <div class="col">
+          <div class="languages__logo-box">
+            <img src="images/languages/language-1.png" alt="HTML 5 logo" title="HTML 5 Logo" class="img-fluid">
           </div>
         </div>
-        <div class="col-md-4 col-lg-2">
-          <div class="companies__logo-box shadow-sm">
-            <img src="images/companies/company-6.png" alt="Company 6 logo" title="Company 6 Logo" class="img-fluid">
+        <div class="col">
+          <div class="languages__logo-box">
+            <img src="images/languages/language-2.png" alt="CSS 3 logo" title="CSS 3 Logo" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="languages__logo-box">
+            <img src="images/languages/language-3.png" alt="Sass logo" title="Sass Logo" class="img-fluid">
+          </div>
+        </div>
+        <div class="col">
+          <div class="languages__logo-box">
+            <img src="images/languages/language-4.png" alt="Bootstrap logo" title="Bootstrap Logo" class="img-fluid">
           </div>
         </div>
       </div>
     </div>
   </section>
+
+  <!--THE CARDS SECTION-->
+  <div class="container pt-5">
+    <div class="row text-center">
+      <h1 class="display-3 fw-bold">Other Credentials</h1>
+      <div class="heading-line mb-5"></div>
+    </div>
+  </div>
+
+  <div class="card mx-5 mb-4 col-lg-6 col-lg-3">
+    <div class="card-body">
+      <h5 class="card-title">In Progress: Associate of Applied Science</h5>
+      <p class="card-text">Soon enough I'll have a college degree in this field!</p>
+    </div>
+  </div>
+
+  <div class="card mx-5 col-lg-6 col-lg-3">
+    <div class="card-body">
+      <h5 class="card-title">In Progress: Certificate of Proficiency</h5>
+      <p class="card-text">This certificate in Programming Essentials will prove that I've gone above and beyond in my website-building skills!</p>
+    </div>
+  </div>
 
   <!-- THE TESTIMONIALS SECTION -->
   <section id="testimonials" class="testimonials">
@@ -223,112 +334,48 @@
     </svg>
     <div class="container">
       <div class="row text-center text-white">
-        <h1 class="display-3 fw-bold">Testimonials</h1>
+        <h1 class="display-3 fw-bold">Teachers and Advisors</h1>
         <hr style="width: 100px; height: 3px; " class="mx-auto">
-        <p class="lead pt-1">what our clients are saying</p>
+        <p class="lead pt-1">Some of the people who have taught me and got me to where I am today!</p>
       </div>
 
       <div class="row align-items-center">
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="testimonials__card">
-                <p class="lh-lg">
-                  <i class="bi bi-blockquote-left"></i>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Placeat aut consequatur illo animi optio exercitationem doloribus eligendi iusto atque repudiandae.
-                  Distinctio.
-                  <i class="bi bi-blockquote-right"></i>
-                <div class="ratings p-1">
-                  <i class="bi bi-star"></i>
-                  <i class="bi bi-star"></i>
-                  <i class="bi bi-star"></i>
-                  <i class="bi bi-star"></i>
-                  <i class="bi bi-star"></i>
-                </div>
-                </p>
-              </div>
+            <div class="carousel-item active pt-5">
               <div class="testimonials__picture">
-                <img src="images/testimonials/client-1.jpg" alt="client-1 picture" class="rounded-circle img-fluid">
+                <img src="images/testimonials/client-1.png" alt="client-1 picture" class="rounded-circle img-fluid">
               </div>
               <div class="testimonials__name">
-                <h3>Patrick Muriungi</h3>
-                <p class="fw-light">CEO & founder</p>
+                <h3>Pat DeJong</h3>
+                <p class="fw-light">School of Computing Academic Advisor<br>Computer Science | Cybersecurity and Network Management | Web & User Experience</p>
               </div>
             </div>
-            <div class="carousel-item">
-              <div class="testimonials__card">
-                <p class="lh-lg">
-                  <i class="bi bi-blockquote-left"></i>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Placeat aut consequatur illo animi optio exercitationem doloribus eligendi iusto atque repudiandae.
-                  Distinctio.
-                  <i class="bi bi-blockquote-right"></i>
-                <div class="ratings p-1">
-                  <i class="bi bi-star"></i>
-                  <i class="bi bi-star"></i>
-                  <i class="bi bi-star"></i>
-                  <i class="bi bi-star"></i>
-                  <i class="bi bi-star"></i>
-                </div>
-                </p>
-              </div>
+            <div class="carousel-item pt-5">
               <div class="testimonials__picture">
-                <img src="images/testimonials/client-2.jpg" alt="client-2 picture" class="rounded-circle img-fluid">
+                <img src="images/testimonials/client-2.jpg" alt="client-1 picture" class="rounded-circle img-fluid">
               </div>
               <div class="testimonials__name">
-                <h3>Joy Marete</h3>
-                <p class="fw-light">Finance Manager</p>
+                <h3>Chimobi Ucha</h3>
+                <p class="fw-light">Ph.D<br>Assistant Professor, Web & User Experience</p>
               </div>
             </div>
-            <div class="carousel-item">
-              <div class="testimonials__card">
-                <p class="lh-lg">
-                  <i class="bi bi-blockquote-left"></i>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Placeat aut consequatur illo animi optio exercitationem doloribus eligendi iusto atque repudiandae.
-                  Distinctio.
-                  <i class="bi bi-blockquote-right"></i>
-                <div class="ratings p-1">
-                  <i class="bi bi-star"></i>
-                  <i class="bi bi-star"></i>
-                  <i class="bi bi-star"></i>
-                  <i class="bi bi-star"></i>
-                  <i class="bi bi-star"></i>
-                </div>
-                </p>
-              </div>
+            <div class="carousel-item pt-5">
               <div class="testimonials__picture">
-                <img src="images/testimonials/client-3.jpg" alt="client-3 picture" class="rounded-circle img-fluid">
+                <img src="images/testimonials/client-3.jpg" alt="client-1 picture" class="rounded-circle img-fluid">
               </div>
               <div class="testimonials__name">
-                <h3>ClaireBelle Zawadi</h3>
-                <p class="fw-light">Global brand manager</p>
+                <h3>Shawna Werner</h3>
+                <p class="fw-light">Digital & Physical Access Coordinator<br>Disability Services</p>
               </div>
             </div>
-            <div class="carousel-item">
-              <div class="testimonials__card">
-                <p class="lh-lg">
-                  <i class="bi bi-blockquote-left"></i>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Placeat aut consequatur illo animi optio exercitationem doloribus eligendi iusto atque repudiandae.
-                  Distinctio.
-                  <i class="bi bi-blockquote-right"></i>
-                <div class="ratings p-1">
-                  <i class="bi bi-star"></i>
-                  <i class="bi bi-star"></i>
-                  <i class="bi bi-star"></i>
-                  <i class="bi bi-star"></i>
-                  <i class="bi bi-star"></i>
-                </div>
-                </p>
-              </div>
+            <div class="carousel-item pt-5">
               <div class="testimonials__picture">
-                <img src="images/testimonials/client-4.jpg" alt="client-4 picture" class="rounded-circle img-fluid">
+                <img src="images/testimonials/client-4.jpg" alt="client-1 picture" class="rounded-circle img-fluid">
               </div>
               <div class="testimonials__name">
-                <h3>Uhuru Kenyatta</h3>
-                <p class="fw-light">C.E.O & Founder</p>
+                <h3>Noël Alton</h3>
+                <p class="fw-light">Ph.D<br>Program Coordinator, Assistant Professor, Web Design & User Experience</p>
               </div>
             </div>
           </div>
@@ -356,7 +403,7 @@
       <div class="row text-center">
         <h1 class="display-3 fw-bold text-uppercase">faq</h1>
         <div class="heading-line"></div>
-        <p class="lead">frequently asked questions, get knowledge befere hand</p>
+        <p class="lead">Frequently asked questions, get your knowledge beforehand!</p>
       </div>
       <div class="row mt-5">
         <div class="col-md-12">
@@ -365,13 +412,13 @@
               <h2 class="accordion-header" id="headingOne">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
                   aria-expanded="true" aria-controls="collapseOne">
-                  Cum facilis quis quia modi ipsam unde fuga animi?
+                  What are HTML and CSS anyways?
                 </button>
               </h2>
               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                 data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, et adipisci, suscipit doloremque dicta necessitatibus esse ea minus, aut officia nulla harum asperiores quis dolor aliquid a ut est soluta?
+                  HTML (which stands for Hyper Text Markup Language) is the skeleton of a website, like text and buttons. Meanwhile CSS (which stands for Cascading Style Sheets) styles the website, giving it its color and layout!
                 </div>
               </div>
             </div>
@@ -379,13 +426,13 @@
               <h2 class="accordion-header" id="headingTwo">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit?
+                  What are Sass and Bootstrap?
                 </button>
               </h2>
               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                 data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero eos excepturi amet nesciunt sunt recusandae enim! Repellat nam quo unde eligendi, ex cumque illum deserunt ratione rerum perspiciatis voluptatum voluptas.
+                  Sass and Bootstrap are extensions of CSS that streamline the process and allow for extra customization!
                 </div>
               </div>
             </div>
@@ -393,27 +440,13 @@
               <h2 class="accordion-header" id="headingThree">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Quaerat dolorem, eveniet hic natus iste velit?
+                  Why does accessibility matter so much?
                 </button>
               </h2>
               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                 data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti, perspiciatis ea eius laborum iste, fugiat molestias magni tenetur quidem assumenda quibusdam dignissimos vitae impedit maiores velit quae aspernatur voluptatibus aperiam.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item shadow mb-3">
-              <h2 class="accordion-header" id="headingFour">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                  Fuga quasi voluptate possimus, eum ex iure sit placeat?
-                </button>
-              </h2>
-              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis voluptas officia consequuntur sapiente quis. Perferendis excepturi magnam autem blanditiis? At fugit, mollitia quo consequatur deserunt provident aspernatur. Provident, id corporis.
+                  The Internet is a public space, and as such, everyone should have access to it! Accessibility features not only let disabled users interact with your content, but these features often help users without disabilities as well.
                 </div>
               </div>
             </div>
@@ -430,15 +463,15 @@
         <h1 class="display-3 fw-bold text-capitalize">Latest work</h1>
         <div class="heading-line"></div>
         <p class="lead">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint porro temporibus distinctio.
+          Take a look at my latest work, from the final product to the steps along the way!
         </p>
       </div>
       <div class="row mt-5 mb-4 g-3 text-center">
         <div class="col-md-12">
           <button class="btn btn-outline-primary" type="button">All</button>
-          <button class="btn btn-outline-primary" type="button">websites</button>
-          <button class="btn btn-outline-primary" type="button">design</button>
-          <button class="btn btn-outline-primary" type="button">mockup</button>
+          <button class="btn btn-outline-primary" type="button">Websites</button>
+          <button class="btn btn-outline-primary" type="button">Prototypes</button>
+          <button class="btn btn-outline-primary" type="button">Code</button>
         </div>
       </div>
 
@@ -449,8 +482,8 @@
               class="img-fluid">
             <div class="portfolio-info">
               <div class="caption">
-                <h4>project name goes here 1</h4>
-                <p>category project</p>
+                <h4>Fortress Figures</h4>
+                <p>Website Final</p>
               </div>
             </div>
           </div>
@@ -461,8 +494,8 @@
               class="img-fluid">
             <div class="portfolio-info">
               <div class="caption">
-                <h4>project name goes here 2</h4>
-                <p>category project</p>
+                <h4>Bootstrap Demo</h4>
+                <p>Website Assignment</p>
               </div>
             </div>
           </div>
@@ -473,8 +506,8 @@
               class="img-fluid">
             <div class="portfolio-info">
               <div class="caption">
-                <h4>project name goes here 3</h4>
-                <p>category project</p>
+                <h4>Chicago Band</h4>
+                <p>Website Assignment</p>
               </div>
             </div>
           </div>
@@ -485,8 +518,8 @@
               class="img-fluid">
             <div class="portfolio-info">
               <div class="caption">
-                <h4>project name goes here 4</h4>
-                <p>category project</p>
+                <h4>CSS Grid Demo</h4>
+                <p>Website Assignment</p>
               </div>
             </div>
           </div>
@@ -497,8 +530,8 @@
               class="img-fluid">
             <div class="portfolio-info">
               <div class="caption">
-                <h4>project name goes here 5</h4>
-                <p>category project</p>
+                <h4>Fortress Figures</h4>
+                <p>Figma Prototype</p>
               </div>
             </div>
           </div>
@@ -509,8 +542,8 @@
               class="img-fluid">
             <div class="portfolio-info">
               <div class="caption">
-                <h4>project name goes here 6</h4>
-                <p>category project</p>
+                <h4>Fortress Figures</h4>
+                <p>HTML Code</p>
               </div>
             </div>
           </div>
@@ -521,8 +554,8 @@
               class="img-fluid">
             <div class="portfolio-info">
               <div class="caption">
-                <h4>project name goes here 7</h4>
-                <p>category project</p>
+                <h4>Fortress Figures</h4>
+                <p>CSS Code</p>
               </div>
             </div>
           </div>
@@ -533,8 +566,8 @@
               class="img-fluid">
             <div class="portfolio-info">
               <div class="caption">
-                <h4>project name goes here 8</h4>
-                <p>category project</p>
+                <h4>Wanderbrew Roastery</h4>
+                <p>Website Practice</p>
               </div>
             </div>
           </div>
@@ -545,8 +578,8 @@
               class="img-fluid">
             <div class="portfolio-info">
               <div class="caption">
-                <h4>project name goes here 9</h4>
-                <p>category project</p>
+                <h4>Pricing Cards</h4>
+                <p>Website Practice</p>
               </div>
             </div>
           </div>
@@ -562,23 +595,22 @@
         <h1 class="display-3 fw-bold text-capitalize">Get started</h1>
         <div class="heading-line"></div>
         <p class="lh-lg">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero illum architecto modi.
+          You'll never know until you try!
         </p>
       </div>
 
       <div class="row text-white">
         <div class="col-12 col-lg-6 gradient shadow p-3">
           <div class="cta-info w-100">
-            <h4 class="display-4 fw-bold">100% Satisfaction Guaranteed</h4>
+            <h4 class="display-4 fw-bold">Your Satisfaction Guaranteed!</h4>
             <p class="lh-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam alias optio minima, tempore architecto
-              sint ipsam dolore tempora facere laboriosam corrupti!
+              The first step is reaching out.
             </p>
             <h3 class="display-3--brief">What will be the next step?</h3>
-            <ul class="cta-info__list">
-              <li>We'll prepare the proposal.</li>
-              <li>we'll discuss it together.</li>
-              <li>let's start the discussion.</li>
+            <ul class="list-unstyled">
+              <li><i class="bi bi-map-fill"></i> We'll prepare a prototype.</li>
+              <li><i class="bi bi-chat-dots-fill"></i> We'll discuss our options together.</li>
+              <li><i class="bi bi-check-circle-fill"></i> Let's start the discussion.</li>
             </ul>
           </div>
         </div>
@@ -646,7 +678,7 @@
             </svg>
           </div>
           <div class="contact-box__info">
-            <a href="#" class="contact-box__info--title">info@company.com</a>
+            <a href="#" class="contact-box__info--title">allisondrysdale@mail.weber.edu</a>
             <p class="contact-box__info--subtitle">Online support</p>
           </div>
         </div>
@@ -687,42 +719,18 @@
     <div class="container mt-5">
       <div class="row text-white justify-content-center mt-3 pb-3">
         <div class="col-12 col-sm-6 col-lg-6 mx-auto">
-          <h5 class="text-capitalize fw-bold">Company name</h5>
+          <h5 class="text-capitalize fw-bold">Allison Drysdale</h5>
           <hr class="bg-secondary d-inline-block mb-4" style="width: 100%; height: 2px;">
           <p class="lh-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ex obcaecati blanditiis reprehenderit ab
-            mollitia voluptatem consectetur?
+            A 21-year-old aspiring web developer!
           </p>
         </div>
         <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
-          <h5 class="text-capitalize fw-bold">Products</h5>
+          <h5 class="text-capitalize fw-bold">Weber State</h5>
           <hr class="bg-secondary d-inline-block mb-4" style="width: 100%; height: 2px;">
-          <ul class="list-inline company-list">
-            <li><a href="#">Lorem ipsum</a></li>
-            <li><a href="#">Lorem ipsum</a></li>
-            <li><a href="#">Lorem ipsum</a></li>
-            <li><a href="#">Lorem ipsum</a></li>
-          </ul>
-        </div>
-        <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
-          <h5 class="text-capitalize fw-bold">useful links</h5>
-          <hr class="bg-secondary d-inline-block mb-4" style="width: 100%; height: 2px;">
-          <ul class="list-inline company-list">
-            <li><a href="#">Lorem ipsum</a></li>
-            <li><a href="#">Lorem ipsum</a></li>
-            <li><a href="#">Lorem ipsum</a></li>
-            <li><a href="#">Lorem ipsum</a></li>
-          </ul>
-        </div>
-        <div class="col-12 col-sm-6 col-lg-2 mb-4 mx-auto">
-          <h5 class="text-capitalize fw-bold">contact</h5>
-          <hr class="bg-secondary d-inline-block mb-4" style="width: 100%; height: 2px;">
-          <ul class="list-inline company-list">
-            <li><a href="#">Lorem ipsum</a></li>
-            <li><a href="#">Lorem ipsum</a></li>
-            <li><a href="#">Lorem ipsum</a></li>
-            <li><a href="#">Lorem ipsum</a></li>
-          </ul>
+          <p class="lh-lg">
+            The college I'm currently attending.
+          </p>
         </div>
       </div>
     </div>
@@ -732,8 +740,8 @@
         <div class="row text-center text-white">
           <div class="col-12">
             <div class="footer-bottom__copyright">
-              &COPY; Copyright 2022 <a href="#">Company</a> | Created by <a href="http://codewithpatrick.com"
-                target="_blank">Name Goes Here</a>
+              &COPY; Copyright 2025 <a href="#">Portfolio</a> | Created by <a href="http://codewithpatrick.com"
+                target="_blank">Allison Drysdale</a>
             </div>
           </div>
         </div>

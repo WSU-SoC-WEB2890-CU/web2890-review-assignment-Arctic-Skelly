@@ -1,1 +1,30 @@
 TODO: List here all the changes you made to given template to adapt it to your needs
+- Changed header icons in Services section
+Purpose: Personalization
+
+- Renamed Companies image folder and its files to Languages
+Purpose: Personalization
+
+- Added transition to greyscale effect on language images
+Purpose: It visually looks better
+
+- Added borders beneath each section in Services mobile view
+Purpose: It makes it easier to visually differentiate between the sections
+
+- Added icons for each list item in Get Started
+Purpose: Whatever icons were there before appeared as unknown symbols on my laptop.
+
+- Changed overall font
+Purpose: Personalization, and making sure that it's readable even at smaller sizes.
+
+- Changed home icon in Clip Studio Paint
+Purpose: The orange on the icon didn't fit the new color palette.
+
+- Modified footer
+Purpose: Personalization, removing unnecesary anchors
+
+- Modified carousel
+Purpose: Personalization to show people and their credentials instead of quotes
+
+- Border added to About Me image
+Purpose: Visual coherency
