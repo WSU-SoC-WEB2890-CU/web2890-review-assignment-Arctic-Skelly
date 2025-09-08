@@ -1,0 +1,47 @@
+@use '../custom'as *;
+
+.xl-up {
+  display: block;
+}
+
+.lg-down {
+  display: none;
+}
+
+.languages__logo-box {
+  height: 200px;
+  width: 200px;
+
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+
+    &:hover {
+      filter: grayscale(120);
+      transition-duration: .5s;
+    }
+  }
+}
+
+@include media-breakpoint-down(lg) {
+  .xl-up {
+    display: none;
+  }
+
+  .lg-down {
+    display: block;
+  }
+
+  .languages__logo-box {
+    height: 170px;
+    width: 170px;
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .languages__logo-box {
+    height: 150px;
+    width: 150px;
+  }
+}

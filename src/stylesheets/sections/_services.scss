@@ -1,5 +1,13 @@
 @use '../custom'as *;
 
+.services-lg-up {
+  display: block;
+}
+
+.services-md-down {
+  display: none;
+}
+
 .services {
   position: relative;
   padding: 1rem 0;
@@ -32,5 +40,15 @@
 
   &__pic {
     max-width: 100%;
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .services-lg-up {
+    display: none;
+  }
+
+  .services-md-down {
+    display: block;
   }
 }
